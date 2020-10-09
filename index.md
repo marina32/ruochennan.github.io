@@ -10,6 +10,32 @@ Markdown is a lightweight and easy-to-use syntax for styling your writing. It in
 
 ```markdown
 Syntax highlighted code block
+$$
+\begin{align}
+tr(AB)=&tr(BA),\ A_{n\times m}, B_{m\times n}&\\
+proof:\ 
+tr(AB)=&\sum_{i=1}^{n}(AB)_{ii}\\
+=&\sum_{i=1}^{n}\sum_{j=1}^{m}a_{ij}b_{ji}\\
+=&\sum_{j=1}^{m}\sum_{i=1}^{n}b_{ji}a_{ij}\\
+=&\sum_{i=j}^{m}(BA)_{jj}\\
+=&tr(BA)
+\end{align}
+$$
+
+## Discussion
+### Week 1
+MMC not only provided annual report but it posted quarterly report. Although most things are the same, we can still find which risk factors change from 2019Q4 to 2020Q1.
+
+The first factor is credit risk. Normally, insurers worry about credit risk of reinsurers in connection with retrocessional arrangements while reinsurers worry about counterparty credit risk, including with respect to brokers, customers and retrocessionaires. As a broker, MMC does not have those worries, but it has acquisitions and dispositions risks. Since it has outstanding long-term debt to repay, including approximately $6.8 billion issued in connection with the acquisition of JLT in 2019, disruption in the credit or financial markets, or changes to credit ratings, as a result of COVID-19, would highly impact its ability to access capital or repay the indebtedness which increased their credit risk.
+
+The second factor is business resiliency risk. Till the end of 2019, MMC worries about their ability to successfully recover if they experience a business continuity problem due to cyberattack, natural disaster, pandemic or otherwise. And 'pandemic' in reports of 2020 becomes 'COVID-19'. To be more precise, in the context of volatile equity markets caused by COVID-19, they worry about their risk management associated with investment management and related services business.
+
+MMC offers an elaborate report about risk factors. It is worth noting that they do not have the common problem like other companies which is dependence on key personnel. That might because it's a large global firm with a talent management service.
+
+Resources:
+
+[How to Read a 10-K](https://www.sec.gov/fast-answers/answersreada10khtm.html)
+[MMC Annual Report](https://news-investors.mmc.com/reporting/quarterly-earnings?a1a5092c_year%5Bvalue%5D=2019)\
 
 # Resume
 ## Header 2
